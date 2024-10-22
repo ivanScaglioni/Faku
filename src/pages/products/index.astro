@@ -61,7 +61,7 @@ const testimonials = [
   },
 ];
 
-const pageTitle: string = `Products | ${SITE.title}`;
+const pageTitle: string = `Productos | ${SITE.title}`;
 ---
 
 <MainLayout
@@ -100,7 +100,7 @@ const pageTitle: string = `Products | ${SITE.title}`;
           )
         }
       </div>
-      <PrimaryCTA title="Customer Stories" url="#testimonials" noArrow={true} />
+      
     </div>
     <!--Displaying products in alternating styles. Alternative product gets different card styling.-->
     <!--Maps through all product entries and displays them with either CardSmall or CardWide based on their position.-->
@@ -127,9 +127,6 @@ const pageTitle: string = `Products | ${SITE.title}`;
       "Customer support dedicated to your project's success.",
     ]}
   />
-  <!--Testimonials section-->
-  <TestimonialsSectionAlt
-    title="What Our Customers Say"
-    testimonials={testimonials}
-  />
+
+
 </MainLayout>

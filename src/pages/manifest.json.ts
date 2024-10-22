@@ -20,7 +20,7 @@ const favicons: Favicon[] = [
     purpose: 'maskable',
     src: maskableIcon,
     sizes,
-   },
+  },
 ];
 
 export const GET: APIRoute = async () => {
