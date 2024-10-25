@@ -1,12 +1,12 @@
-import ogImageSrc from "@images/social.png";
+import ogImageSrc from "@images/mendoza_metalurgica_logo.png";
 
 export const SITE = {
-  title: "ScrewFast",
-  tagline: "Top-quality Hardware Tools",
-  description: "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs. Start exploring and contact our sales team for superior quality and reliability.",
-  description_short: "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs.",
-  url: "https://screwfast.uk",
-  author: "Emil Gulamov",
+  title: "Medoza Metalúrgica",
+  tagline: "Soldamos lo que necesites en Medoza Metalúrigca",
+  description: "Taller metalúrgico en Mendoza, Godoy Cruz",
+  description_short: "Taller metalúrgico en Mendoza, Godoy Cruz",
+  url: "https://faku.pages.dev/",
+  author: "Facundo Masman",
 };
 
 export const SEO = {
@@ -15,7 +15,7 @@ export const SEO = {
   structuredData: {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    inLanguage: "en-US",
+    inLanguage: "es-ES",
     "@id": SITE.url,
     url: SITE.url,
     name: SITE.title,
@@ -30,10 +30,10 @@ export const SEO = {
 };
 
 export const OG = {
-  locale: "en_US",
+  locale: "es-Es",
   type: "website",
   url: SITE.url,
-  title: `${SITE.title}: : Hardware Tools & Construction Services`,
-  description: "Equip your projects with ScrewFast's top-quality hardware tools and expert construction services. Trusted by industry leaders, ScrewFast offers simplicity, affordability, and reliability. Experience the difference with user-centric design and cutting-edge tools. Start exploring now!",
+  title: `${SITE.title}: : Soldamos lo que necesites en Medoza Metalúrigca`,
+  description: "Taller metalúrgico en Mendoza, Godoy Cruz",
   image: ogImageSrc,
 };

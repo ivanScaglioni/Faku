@@ -1,12 +1,12 @@
 ---
-title: "SF-AB A765"
-description: "Assorted Screw Set" 
+title: "mesa"
+description: "Mesa ratornera" 
 main:
   id: 2
   content: |
-    Introducing the SF-AB A765 Assorted Screw Set – the ultimate solution for your screw fastening needs. This comprehensive set includes a wide variety of screws meticulously curated to tackle various projects with ease and precision.
-  imgCard: "@/images/product-image-2.avif"
-  imgMain: "@/images/product-image-main-2.avif"
+    mesa
+  imgCard: "@/images/products/p2.jpg"
+  imgMain: "@/images/products/p2.jpg"
   imgAlt: "Mockup boxes of assorted screw set"
 tabs:
   - id: "tabs-with-card-item-1"

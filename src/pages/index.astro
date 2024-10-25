@@ -10,7 +10,7 @@ import TestimonialsSection from "@components/sections/testimonials/TestimonialsS
 import PricingSection from "@components/sections/pricing/PricingSection.astro";
 import FAQ from "@components/sections/misc/FAQ.astro";
 import AnnouncementBanner from "@components/ui/banners/AnnouncementBanner.astro";
-import heroImage from "@images/hero-image.avif";
+import logoImage from "@images/mendoza_metalurgica_logo.png";
 import faqs from "@data/faqs.json";
 import features from "@data/features.json";
 import pricing from "@data/pricing.json";
@@ -31,54 +31,48 @@ const avatarSrcs: Array<string> = [
 
   <HeroSection
     title=`Soldamos todo lo que necesites a medida en <span
-        class="text-yellow-500 dark:text-yellow-400">El negro que sabe soldar</span>`
-    subTitle="tenemos lo que todo lo que quieren las guachas"
+        class="text-yellow-500 dark:text-yellow-400">Mendoza Metalúrgica</span>`
+    subTitle="Presupuesto libre de cargo"
     primaryBtn="ver productos"
     primaryBtnURL="/products"
     secondaryBtn="Contactar"
     secondaryBtnURL="/contact"
-    src={heroImage}
-    alt="Stack of ScrewFast product boxes containing assorted hardware tools"
+    src={logoImage}
+    alt="Medoza Metalurgica"
   />
 
   <ClientsSection
     title="Con precios accesibles y buena calidad en nuestro trabajo"
-    subTitle="Experiencia de sobra como para hacer dulce"
+    subTitle=""
   />
 
-  <FeaturesGeneral
-    title="Ofecenmos soluciones a medida"
-    subTitle="nuetra gran capaciad intelectual argentina superior a cualquier otra nos hace los indicados para sus problemas"
-    src={featureImage}
-    alt="ScrewFast products in floating boxes"
-    features={features}
-  />
+
 
   <FeaturesNavs
-    title=`Customize <span class="text-yellow-500 dark:text-yellow-400">ScrewFast</span>'s offerings to perfectly suit your hardware and construction needs.`
+    title=`Encuentre lo que necesite en <span class="text-yellow-500 dark:text-yellow-400">Mendoza Metalúrgica</span>, nos adecuamos a sus exigencias.`
     tabs={[
       {
-        heading: "Cutting-Edge Tools",
+        heading: "Presupuesto libre de cargo",
         content:
-          "Empower your projects with ScrewFast's cutting-edge tools. Experience enhanced efficiency in construction management with our sophisticated automated solutions.",
+          "Estamos a su dispocición para cotizar cualquier tipo de contucción, obra o proyecto de forma totalmete gratis y libre de cargo ",
         svg: "tools",
         src: tools,
         alt: "Yellow and black heavy equipment on brown grass field",
         first: true,
       },
       {
-        heading: "Intuitive Dashboards",
+        heading: "Trabajos a medida",
         content:
-          "Navigate with ease using ScrewFast's intuitive dashboards. Set up and oversee your projects seamlessly, with user-friendly interfaces designed for quick and effective workflow management.",
+          "Hacemos y fabricamos todo segun las necesidades y exigencias de cada cliente en particular para crear una solución única y perfecta para cada cliente.",
         svg: "dashboard",
         src: dashboard,
         alt: "A screenshot or graphic representation of the intuitive dashboard",
         second: true,
       },
       {
-        heading: "Robust Features",
+        heading: "Comunicación",
         content:
-          "Minimize complexity, maximize productivity. ScrewFast's robust features are engineered to streamline your construction process, delivering results that stand out for their excellence.",
+          "Puede realizar su consulta al siguiente núnero de celular: 261-334-6065, mediate llamada, SMS, Whatsapp o esbribirnos a nuestro instagram",
         svg: "house",
         src: construction,
         alt: "Gray metal building frame near tower crane during daytime",
@@ -89,8 +83,10 @@ const avatarSrcs: Array<string> = [
 
 
 
-
+  <!--
+  
   <FAQ title="Preguntas<br />boludas" faqs={faqs} />
+  -->
 
   <HeroSectionAlt
     title="Contruyamos juntos"

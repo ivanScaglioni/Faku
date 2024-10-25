@@ -1,12 +1,12 @@
 ---
-title: "Mesa"
-description: "Mesa ratonera"
+title: "silla"
+description: "Machine Screws"
 main:
-  id: 1
+  id: 5
   content: |
-    No tengo ni la más reputisima idea de que mierda es esto
-  imgCard: "@/images/products/p1.jpg"
-  imgMain: "@/images/products/p1.jpg"
+    Introducing the SF-TB T845 – your go-to solution for precision fastening in machinery and equipment. This comprehensive set of machine screws is meticulously crafted to meet the stringent demands of industrial applications, ensuring secure and reliable fastening.
+  imgCard: "@/images/products/p5.jpg"
+  imgMain: "@/images/product-image-main-1.avif"
   imgAlt: "Mockup boxes of machine screws set"
 tabs:
   - id: "tabs-with-card-item-1"
