@@ -30,8 +30,8 @@ importers:
         specifier: ^2.5.0
         version: 2.5.0
       '@preline/dropdown':
-        specifier: ^2.4.1
-        version: 2.5.0
+        specifier: ^2.5.2
+        version: 2.5.2
       '@preline/overlay':
         specifier: ^2.5.0
         version: 2.5.0
@@ -276,6 +276,7 @@ packages:
 
   '@darkroom.engineering/tempus@0.0.46':
     resolution: {integrity: sha512-s5vav3KMHYezvUCl4ee5epg0oimF6M8C9gAaKxFnFaTvX2q3ywFDryIv6XLd0mRFUt3S1uHDJqKaiEcs2ZVSvw==}
+    deprecated: '''@darkroom.engineering/tempus'' has been renamed to just ''tempus'''
 
   '@emmetio/abbreviation@2.3.3':
     resolution: {integrity: sha512-mgv58UrU3rh4YgbE/TzgLQwJ3pFsHHhCLqY20aJq+9comytTXUDNGG/SMtSeMJdkpxgXSXunBGLD8Boka3JyVA==}
@@ -644,8 +645,8 @@ packages:
   '@preline/collapse@2.5.0':
     resolution: {integrity: sha512-FFVB+T7FXn66EUmwgR8c1OtxXDlL74pRvBXtntXwwQ+9fqCZML1xPTOXfdeRL4e46kroAtigVcp/Y28lEpkXTQ==}
 
-  '@preline/dropdown@2.5.0':
-    resolution: {integrity: sha512-ydKGBx02eLWzmCn8gkaaTe/gXXqvkZKZCgCYCWETRdy31qhaam43hvJMcpsGOROWSjlPNBgVyGrwYdAgJUO68g==}
+  '@preline/dropdown@2.5.2':
+    resolution: {integrity: sha512-eFrJxIlvIofn8ge6Fr/5jLDLdKtiTx69U/JsIp1jOPTUheuBnyyuyjJGASNAAJjx+VBHnn/V3538ZeK7E/VKAQ==}
 
   '@preline/overlay@2.5.0':
     resolution: {integrity: sha512-5eWzP2N3sTOKhgoefXdrrxUNQh8F678von6ehN1cD79ujVfShYdWowvjtzMlUiTePbF0pgM/wG6D6mRzicOMzw==}
@@ -3597,7 +3598,7 @@ snapshots:
 
   '@preline/collapse@2.5.0': {}
 
-  '@preline/dropdown@2.5.0': {}
+  '@preline/dropdown@2.5.2': {}
 
   '@preline/overlay@2.5.0': {}
 
